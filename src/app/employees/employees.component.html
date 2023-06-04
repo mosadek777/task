@@ -1,0 +1,43 @@
+<h1 class="text-center text-captalize my-2">All employees Data</h1>
+<table mat-table [dataSource]="employeesArray" class="mat-elevation-z8 my-5">
+ 
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+  
+    <!-- department Column -->
+    <ng-container matColumnDef="Department">
+      <th mat-header-cell *matHeaderCellDef> Department </th>
+      <td mat-cell *matCellDef="let element"> {{element.Department}} </td>
+    </ng-container>
+  
+  <!-- employmentDate Column -->
+  <ng-container matColumnDef="EmploymentDate">
+    <th mat-header-cell *matHeaderCellDef>Employment Date</th>
+    <td mat-cell *matCellDef="let element"> {{element.EmploymentDate}} </td>
+  </ng-container>
+
+     <!-- salary Column -->
+  <ng-container matColumnDef="Salary">
+    <th mat-header-cell *matHeaderCellDef>Salary</th>
+    <td mat-cell *matCellDef="let element"> {{element.Salary}} </td>
+  </ng-container>
+  
+
+       <!-- experience Column -->
+       <ng-container matColumnDef="Experience">
+        <th mat-header-cell *matHeaderCellDef>Experience</th>
+        <td mat-cell *matCellDef="let element"> {{element.Experience}} </td>
+      </ng-container>
+      
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  
+  <div class="d-flex justify-content-around align-items-center">
+  <button mat-raised-button color="primary" (click)="openFormDialog()" >filter</button>
+ 
+
+</div>

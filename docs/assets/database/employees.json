@@ -1,0 +1,61 @@
+[
+  {
+    "name": "John wick",
+    "Department": "Finance",
+    "EmploymentDate": "2020/1/12",
+    "Salary": 8000,
+    "Experience": "Less than a year"
+  },
+  {
+    "name": "george",
+    "Department": "IT",
+    "EmploymentDate": "2018/10/5",
+    "Salary": 5000,
+    "Experience": "From 1-3 years"
+  },
+  {
+    "name": "Alfredo",
+    "Department": "IT",
+    "EmploymentDate": "2021/2/15",
+    "Salary": 2000,
+    "Experience": "From 1-3 years"
+  },
+  {
+    "name": "Alonso",
+    "Department": "IT",
+    "EmploymentDate": "2021/1/1",
+    "Salary": 4000,
+    "Experience": "3 years or above"
+  },
+
+  {
+    "name": "ahmed",
+    "Department": "Finance",
+    "EmploymentDate": "2019/20/9",
+    "Salary": 4000,
+    "Experience": "Less than a year"
+  },
+  {
+    "name": "mohamed",
+    "Department": "IT",
+    "EmploymentDate": "2023/6/4",
+    "Salary": 4000,
+    "Experience": "3 years or above"
+  }
+ ,
+ {
+    "name": "eslam",
+    "Department": "front end developer",
+    "EmploymentDate": "2023/6/4",
+    "Salary": 4000,
+    "Experience": "Less than a year"
+  }
+  ,
+ {
+    "name": "hossam",
+    "Department": "front end developer",
+    "EmploymentDate": "2023/6/12",
+    "Salary": 4000,
+    "Experience": "Less than a year"
+  }
+]
